@@ -12,12 +12,13 @@ export default function Section() {
       <Container>
         <Box sx={{ mt: 5 }}>
           <Typography
-            variant="h2"
+          
             sx={{
               fontWeight: 800,
               textAlign: "center",
               maxWidth: 800,
               m: "auto",
+              typography: { md: 'h2', sm: 'h4', xs:"h5" }
             }}
           >
             Do you like Japanese educational center?
@@ -47,13 +48,14 @@ export default function Section() {
         </Box>
         <Box>
           <Typography
-            variant="h3"
+            
             sx={{
               fontWeight: 800,
               textAlign: "center",
               maxWidth: 600,
               m: "auto",
               pt: 5,
+              typography: { md: 'h2', sm: 'h4', xs:"h5" }
             }}
           >
             We’re the digital marketing team at Wednesday.

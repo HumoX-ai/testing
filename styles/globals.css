@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&family=Roboto+Mono:wght@200;400;600&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-transform: none !important;
 
+}
+
+
+.container {
+  position: relative;
+}
+
+.overlay {
+  line-height: 44px;
+  color: #fff;
+}
+
+.sample-slider .swiper-wrapper {
+  transition-timing-function: linear;
 }

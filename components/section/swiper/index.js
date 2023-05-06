@@ -29,10 +29,7 @@ export default function Swipers() {
       <Swiper
         slidesPerView={3}
         spaceBetween={30}
-        freeMode={true}
-        pagination={{
-          clickable: true,
-        }}
+        freeMode={true}       
         modules={[FreeMode, Pagination]}
         className="mySwiper"
         breakpoints={{

@@ -1,8 +1,9 @@
-
 import Head from "next/head";
 import { Poppins } from "next/font/google";
 import Section from "@/components/section/section";
 import Header from "@/components/header";
+import Section2 from "@/components/section2";
+import Section3 from "@/components/section3";
 
 const poppins = Poppins({
   weight: "400",
@@ -20,7 +21,8 @@ export default function Home() {
       <main className={poppins.className}>
         <Header />
         <Section />
-      
+        <Section2 />
+        <Section3 />
       </main>
     </>
   );
